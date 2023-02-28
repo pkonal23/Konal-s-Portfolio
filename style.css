@@ -114,7 +114,7 @@ width: 100%;
     justify-content: center;
     margin-top: 2%;
 }
-.skill {
+#skill {
     margin-top: 10%;
     display:grid;
     justify-content: center;
