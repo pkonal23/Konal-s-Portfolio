@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background: #7a000000;
+}
+
+.logo{
+    padding: 10px;
+}
+
+.header {
+    display: flex;
+    position: relative;
+    background-color: #1b1c1e78;
+    height: 9vh;
+    justify-content: space-between;
+}
+
+#background {
+    position:fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    bottom: 0%;
+    z-index: -1;
+}
+
+.navbar {
+    width: 40%;
+    margin-right: 60px;
+    display: flex;
+    justify-content: center;
+    /* background: rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2), inset 0px 1px 4px rgba(255, 255, 255, 0.8), inset 0px 20px 40px rgba(255, 255, 255, 0.25), inset 0px -4px 4px rgba(255, 255, 255, 0.25), inset 0px -40px 40px rgba(0, 0, 0, 0.2), inset 0px 4px 12px rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(20px);
+    border-radius: 20px; */
+
+}
+
+.header .navbar ul {
+
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.header .navbar ul li a {
+    display: block;
+    color: #fefefe;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 0 5px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+
+.bann-container {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:2%;
+  text-align: center;
+  }
+  
+  .bann {
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 0, 0, 0);
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+  }
+
+
+  .bann h2{
+    font-size: 90px;
+  }
+  .description p{
+    font-size: 27px;
+    margin-top: 10%;
+    margin-right: -150px;
+    margin-left: 100px;
+width: 100%;
+    color: #fefefe;
+  }
+  
+  .description {
+    display: flex;
+
+    
+  }
+
+  .description img{
+    display: inline;
+    margin-left: 25%;
+    transform: scaleX(-1);
+  }
+  
+.cimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+.skill {
+    margin-top: 10%;
+    display:grid;
+    justify-content: center;
+    
+}
+
+.scroll {
+    margin: auto;
+    fill-opacity: 1;
+    background: linear-gradient(179.7deg, rgba(0, 0, 0, 0.2) 0.26%, rgba(0, 0, 0, 0.2) 99.74%), linear-gradient(270deg, rgba(154, 154, 154, 0) 0%, #757575 53.09%, rgba(217, 217, 217, 0) 100%);
+    stroke-width: 10px;
+    width: 86%;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6%;
+    background-color: #fefefe00;
+}
+
+.iconz:hover ,.iconz:focus {
+    fill: rgb(255, 129, 107);
+}
+.instagram:hover ,.instagram:focus{
+    fill: rgb(255, 136, 156);
+}
+.whatsapp:hover ,.whatsapp:focus{
+    fill: rgb(195, 255, 106);
+}
+.linkedin:hover ,.linkedin:focus{
+    fill: rgb(39, 179, 255);
+}
+
+.navbar ul li a:hover{
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    border-radius: 20px;
+    color: #252525; 
+}
